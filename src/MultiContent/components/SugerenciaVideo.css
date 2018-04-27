@@ -1,0 +1,13 @@
+.SugerenciaVideo {
+  margin: 0px 36px 28px 0;
+}
+.SugerenciaVideo img {
+  height: 170px;
+  width: 260px;
+  box-shadow: 4px 4px 8px 0px #a5a4a4;
+}
+.SugerenciaVideo p {
+  color: #50536c;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}

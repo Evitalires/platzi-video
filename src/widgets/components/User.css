@@ -1,0 +1,15 @@
+.User {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  color: #888b8e;
+}
+.User img{
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+.User p:hover {
+  color: #cbd0d5
+}

@@ -1,0 +1,13 @@
+.ComentariosUI {
+  background: white;
+  height: auto;
+  width: 60%;
+  padding: 24px;
+  display: inline-flex;
+  flex-direction: column;
+}
+.ComentariosUI h2 {
+  color: #50536c;
+  font-size: 14px;
+  font-weight: 200;
+}

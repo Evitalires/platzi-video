@@ -1,0 +1,20 @@
+.Categories {
+  overflow: hidden;
+  padding: 20px 0 20px 20px;
+  background: white;
+}
+.Categories-head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.Categories-head div {
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.Categories-head div img {
+  height: 50px;
+  width: 50px;
+}

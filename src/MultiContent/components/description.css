@@ -1,0 +1,101 @@
+.Description {
+  height: auto;
+  width: inherit;
+  font-size: 16px;
+}
+.Description-Initial {
+  margin: 32px 0px 16px 16px
+}
+.Description-Initial h3 {
+  color: #50536c;
+  margin-bottom: 4px;
+  font-weight: 200;
+}
+.Description-Initial p {
+  color: #7f7f88;
+  margin: 0;
+  font-weight: 200;
+}
+.Description .About-video {
+  height: 70px;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-bottom: 2px solid #50536c
+}
+.Description .About-video button.AddList {
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 1px #b42049;
+  background: linear-gradient(to right, #dd0843, #fc6095);
+}
+.Description .About-video div {
+  margin: 10px;
+  margin-left: 36px;
+  color: #50536c;
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  align-items: center;
+}
+.Description .About-video div.Tags {
+  width: 165px;
+  margin-left: 60px;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.Description .About-video .Tags button {
+  margin-left: 8px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 9px #a3a1a1;
+}
+.Description .About-video .Tags button:hover {
+  transition: .3s;
+  box-shadow: 0px 5px 9px #a3a1a1;
+}
+.Description .About-video .Tags button:hover {
+
+}
+.Description .About-video .Tags button:nth-child(1n + 1) {
+  background: #171C30;
+}
+.Description .About-video .Tags button:nth-child(2n + 1) {
+  background: purple;
+}
+.Description .About-video .Tags button:nth-child(3n + 1) {
+  background: orange;
+}
+.Description .About-video .Tags button:nth-child(4n + 1) {
+  background: peru;
+}
+
+@keyframes click {
+  from {
+    transform: translateY(0px);
+    position: relative;
+    top: 1%
+  }
+  50% {
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px #b42049;
+  }
+  to {
+    transform: translateY(0px);
+    box-shadow: 0px 4px 1px #b42049;
+  }
+}

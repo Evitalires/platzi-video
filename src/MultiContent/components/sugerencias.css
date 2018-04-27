@@ -1,0 +1,9 @@
+.Sugerencias {
+  display: inline-flex;
+  flex-direction: column;
+}
+.Sugerencias h2 {
+  color: #50536c;
+  font-size: 14px;
+  font-weight: 200;
+}
