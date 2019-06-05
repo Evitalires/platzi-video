@@ -1,0 +1,49 @@
+
+.Related {
+  transition: .3s;
+  grid-column: 1 / 1 span;
+  background-color: #16192e;
+}
+.Related img {
+  margin: 16px 20px 16px 16px;
+}
+
+
+.Related.mobile header  {
+  display: grid;
+  grid-row: 1 / 1 span;
+  background: #16192e;
+  grid-template-columns: 4em 1fr;
+  grid-template-rows: 4.5em;
+}
+.Related.mobile header img {
+  margin: 0px;
+  grid-column: 2 / 1 span;
+}
+.Related.mobile main {
+  overflow: scroll;
+  grid-row:  2 / 1 span;
+  height: calc(100vh - 4.5em);
+}
+
+.Related.mobile.menuOpen {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  grid-template-rows: 4.5em calc(100vh - 4.5em);
+}
+.burgerMenu {
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171C30; 
+  position: fixed;
+  font-size: 1.5em;
+  top: .5em;
+  left: .5em;
+}

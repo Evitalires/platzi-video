@@ -1,0 +1,50 @@
+.NewComment {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  height: 60px;
+  width: 95%;
+  background: #ebebeb;
+  border-radius: 16px;
+  padding: 4px 4px 4px 8px;
+  box-shadow: 2px 2px 8px #c2c2c2;
+}
+.NewComment:hover {
+  transform: scale(1.05);
+  transition-timing-function: ease-in;
+  transition: .5s;
+}
+.NewComment img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.NewComment form {
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+.NewComment form input {
+  height: 60px;
+  width: 450px;
+  width: 90%;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background: none;
+}
+.NewComment form button {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.NewComment form button p {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  color: #50536c;
+}

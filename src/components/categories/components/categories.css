@@ -1,0 +1,31 @@
+.Categories {
+  overflow: hidden;
+  grid-column: 2 / 1 span;
+  padding: 20px 0 20px 20px;
+  background: white;
+}
+.Categories.mobile {
+  grid-row: 1 span;
+  grid-column: 1 span;
+  overflow: scroll;
+  padding: .5em;
+  }
+.Categories-head {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 130px;
+  justify-content: space-between;
+  padding-top: 0px;
+  margin-bottom: 16px;
+  align-items: center;
+
+}
+/* .Categories-head div {
+  margin-right: 100px;
+  margin-bottom: 20px;
+} */
+.Categories-head div img {
+  height: 50px;
+  width: 50px;
+}

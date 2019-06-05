@@ -2,15 +2,15 @@
   "user": [
     {
       "id": 1,
-      "name": "Jair Escobar",
-      "img": "./images/perfiles/chetFaker.jpg",
+      "name": "Jair Escobare",
+      "img": "../images/perfiles/chetFaker.jpg",
       "sugerencias": [
         {
           "title": "¿Qué es responsive Design?",
           "author": "LeonidasEsteban",
           "type": "video",
           "views": 0,
-          "cover": "./images/covers/responsive.jpg",
+          "cover": "../images/covers/responsive.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 1,
           "comments": [

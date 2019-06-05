@@ -1,0 +1,21 @@
+.Sugerencias {
+  display: inline-flex;
+  flex-direction: column;
+}
+.Sugerencias h2 {
+  color: #50536c;
+  font-size: 14px;
+  font-weight: 200;
+}
+@media screen and (max-width: 768px) {
+  .Sugerencias {
+    width: 100vw;
+  }
+  .Sugerencias h2 {
+    font-size:  2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: .5em;
+    border-top: 1px solid #15182d;
+  }
+}

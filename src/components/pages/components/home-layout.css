@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #171C30;
+}
+.HomeLayout {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 30% 70%;
+  justify-items: stretch;
+  animation: in 1s forwards;
+}
+.HomeLayout.mobile {
+  grid-template-columns: 100%;
+  grid-template-rows: 4.5em calc(100vh - 4.5em);
+}
+@keyframes in {
+  from{
+    opacity: .5;
+    transform: scale(.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1)
+  }
+}
+@keyframes opacityOn {
+  to {
+    opacity: .6;
+  }
+}
+@keyframes opacityOff {
+  to {
+    opacity: 1;
+  }
+}

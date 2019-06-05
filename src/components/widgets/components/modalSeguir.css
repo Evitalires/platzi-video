@@ -1,0 +1,57 @@
+.ModalSeguir {
+  /* width: 978px; */
+  height: 100px;
+  margin: 0 auto;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 30%;
+  background: linear-gradient(to right, #dd0843, #fc6095);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.ModalSeguir-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: transparent;
+  right: 0;
+  top: 0;
+  border: none;
+  color: #171c30;
+  cursor: pointer;
+
+}
+.ModalSeguir-close::after {
+  content: "X";
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ModalSeguirViendo {
+  animation: cerrar .5s forwards;
+}
+.ModalStaySeeOpen {
+  animation: open .5s forwards;
+}
+@media screen and (max-width: 768px) {
+  .ModalSeguir {
+    left: 0;
+  }
+} 
+@keyframes open {
+  from {
+    transform: translateY(300px)
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes cerrar {
+  to {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+}

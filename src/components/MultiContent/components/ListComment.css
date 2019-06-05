@@ -1,0 +1,13 @@
+@keyframes signComment {
+  from {
+    opacity: 0;
+    background: #ebebeb;
+    transform: translateY(-83px);
+    border-radius: 16px;
+  }
+  to {
+    opacity: 1;
+    border-radius: 0px;
+    transform: translateY(0px);
+  }
+}

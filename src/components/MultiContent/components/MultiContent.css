@@ -1,0 +1,71 @@
+.MultiContent {
+  grid-column: 2 / 1 span;
+  background: white;
+}
+.MultiContent.mobile {
+  grid-column: 1 / 1 span;
+  background: white;
+  overflow: scroll;
+}
+.MultiContent .VideoPlayerLayout {
+  width: 100%;
+  animation: release .5s forwards;
+}
+.MultiContent-Reproductor {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.MultiContent-Reproductor .Back,
+.MultiContent-Reproductor .VideoPlayerControls {
+  opacity: 0;
+  transform: scale(.5);
+}
+.MultiContent-Reproductor .Back:checked {
+  background: red;
+}
+.MultiContent-Reproductor:hover .Back,
+.MultiContent-Reproductor:hover .VideoPlayerControls {
+  opacity: 1;
+  transform: scale(1);
+  transition: .3s;
+}
+.MultiPlayPause {
+  position: absolute;
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  width: 1002px;
+  height: 500px;
+}
+.MultiPlayPause .PlayPause,
+.MultiPlayPause .PlayPause svg {
+  height: 100px;
+  width: 100px;
+}
+.MultiContent-Reproductor .Back {
+  position: absolute;
+  cursor: pointer;
+  align-self: flex-start;
+  top: 50px;
+  left: 40px;
+}
+
+@keyframes release {
+  from {
+    transform: translateY(-500px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+@keyframes hidden {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateY(1000px);
+  }
+}

@@ -1,0 +1,48 @@
+.SongContinue {
+  width: 500px;
+  font-size: 20px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+.SongContinue-icons {
+  padding-left: 80px;
+  padding-right: 32px;
+}
+.SongContinue img {
+  height: 100px;
+  width: 100px;
+  filter: blur(.8px);
+  opacity: .7;
+}
+.SongContinue-svg{
+  position: absolute;
+  top: 52px;
+  left: 132px;
+}
+.SongContinue p {
+  font-size: 16px;
+  opacity: .8;
+}
+.SongContinue p:last-child {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .SongContinue {
+    width: 80vw;
+    border: 1px solid white;
+  }
+  .SongContinue-svg {
+    left: 52px;
+  }
+  .SongContinue-icons {
+    padding: 0;
+    margin: auto 0;
+  }
+  .SongContinue-icons img {
+    left: 52px;
+  }
+  .SongContinue .SongContinue-description {
+    padding-left: 1em;
+  }
+}

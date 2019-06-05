@@ -1,0 +1,20 @@
+import React, { Fragment } from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+/* import App from './App'; */
+import Home from "./components/pages/containers/home";
+import data from "./api.json";
+import * as serviceWorker from './serviceWorker';
+
+ReactDOM.render( 
+    <>
+        <Home data={data} />
+        <div id="modal-container"></div>
+    </>
+    , document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.register();
+
