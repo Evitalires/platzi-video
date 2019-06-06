@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/platzi-video/static/css/main.c3bded72.chunk.css",
+    "main.js": "/platzi-video/static/js/main.22baa34e.chunk.js",
+    "main.js.map": "/platzi-video/static/js/main.22baa34e.chunk.js.map",
+    "runtime~main.js": "/platzi-video/static/js/runtime~main.c0dfe903.js",
+    "runtime~main.js.map": "/platzi-video/static/js/runtime~main.c0dfe903.js.map",
+    "static/js/2.18a0138a.chunk.js": "/platzi-video/static/js/2.18a0138a.chunk.js",
+    "static/js/2.18a0138a.chunk.js.map": "/platzi-video/static/js/2.18a0138a.chunk.js.map",
+    "index.html": "/platzi-video/index.html",
+    "precache-manifest.507354405da817287617454f7903c370.js": "/platzi-video/precache-manifest.507354405da817287617454f7903c370.js",
+    "service-worker.js": "/platzi-video/service-worker.js",
+    "static/css/main.c3bded72.chunk.css.map": "/platzi-video/static/css/main.c3bded72.chunk.css.map"
+  }
+}
